@@ -1,0 +1,29 @@
+.paswd{
+    margin-left: 30px;
+}
+.header {
+background: darkred;
+color: white;
+
+}
+
+.h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+.login {
+    margin-top: 15%;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background: purple;
+}
+
+@media screen and (min-width: 700px) {
+    .login {
+        margin-top: 50px;
+    }
+}

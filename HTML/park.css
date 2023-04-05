@@ -1,0 +1,56 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.location {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.content {
+    margin-top: 100px;
+}
+.info {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sm {
+    margin-left: 150px;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+.footer {
+    margin-top: 30px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.photo:hover{
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    #title {
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .gallery {
+        display: inline-flex;
+    }
+}
